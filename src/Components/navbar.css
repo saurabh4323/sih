@@ -1,0 +1,281 @@
+/* General styling for the container and navigation */
+.boxn {
+  box-shadow: rgba(79, 127, 170, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  display: flex;
+  flex-direction: column;
+  
+  width: 100%;
+  margin-top: 1px;
+  height: 80px;
+  background-color: rgb(239, 246, 252);
+}
+
+.top {
+  margin-top: 10px;
+  height: 50px;
+  display: flex;
+  width: 100%;
+}
+
+.lef {
+  align-items: center;
+  margin-left: 30px;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.lef img {
+  width: 40px;
+}
+
+.lef button {
+  align-items: center;
+  background-color: #0A66C2;
+  border: 0;
+  border-radius: 100px;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 20px;
+  min-height: 40px;
+  padding: 0 20px;
+  transition: background-color 0.167s ease, transform 0.167s ease;
+}
+
+.lef button:hover {
+  background-color: #065dd8;
+  transform: translateY(-2px);
+}
+
+/* Styling for the bottom container */
+.bottom {
+  width: 100%;
+  margin-top: -20px;
+  padding: 20px 0;
+  bottom: 0;
+  left: 0;
+}
+
+/* Navigation styling */
+.nav-list {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-item {
+  margin: 0 15px;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+/* General styles for nav links */
+/* Font Face Styles */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 100;
+  src: local('Lato Hairline'), local('Lato-Hairline'), url(http://themes.googleusercontent.com/static/fonts/lato/v6/boeCNmOCCh-EWFLSfVffDg.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Lato Light'), local('Lato-Light'), url(http://themes.googleusercontent.com/static/fonts/lato/v6/KT3KS9Aol4WfR6Vas8kNcg.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url(http://themes.googleusercontent.com/static/fonts/lato/v6/9k-RPmcnxYEPm8CNFsH2gg.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Lato Bold'), local('Lato-Bold'), url(http://themes.googleusercontent.com/static/fonts/lato/v6/wkfQbvfT_02e2IWO3yYueQ.woff) format('woff');
+}
+
+/* Nav List Styles */
+.nav-list {
+  margin-left: 17%;
+  margin-top: -30px;
+  font-family: 'Lato', sans-serif; /* Apply Lato font */
+  list-style: none;
+  padding: 0;
+  
+  display: flex;
+  justify-content: center;
+}
+
+/* Nav Item Styles */
+.nav-item {
+  
+  margin: 0 10px;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+/* Link Styles */
+.nav-item a {
+  
+  text-decoration: none;
+  color: #444;
+  font-size: 18px;
+  display: block;
+  position: relative;
+  padding: 20px;
+  width: 100%;
+  box-sizing: border-box;
+  z-index: 2; /* Ensure it's above the hover background */
+}
+
+/* Hover Effect */
+.nav-item a::after {
+ 
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 0; /* Start with zero width */
+  transition: width 0.3s ease; /* Smooth transition for the hover effect */
+  z-index: -1; /* Ensure it stays behind the text */
+}
+
+/* Hover Effect for Different Colors */
+.nav-item:nth-child(1) a::after {
+  margin-top: 15px;
+  height: 30px;
+  background-color: #3498db; /* Blue */
+}
+.nav-item:nth-child(2) a::after {
+  margin-top: 15px;
+  height: 30px;
+  background-color: #ffd071; /* Yellow */
+}
+.nav-item:nth-child(3) a::after {
+ 
+  margin-top: 15px;
+  height: 30px;
+  background-color: #f0776c; /* Red */
+}
+.nav-item:nth-child(4) a::after {
+  margin-top: 15px;
+  height: 30px;
+  background-color: #1abc9c; /* Green */
+}
+.nav-item:nth-child(5) a::after {
+  margin-top: 15px;
+  height: 30px;
+  background-color: #e17e36; /* Brown */
+}
+
+/* Hover Color Changes */
+.nav-item a:hover {
+  
+  color: #fff; /* Change text color on hover */
+}
+
+.nav-item a:hover::after {
+  margin-top: 15px;
+  
+  height: 30px;
+  width: 100%; /* Expand the background to full width on hover */
+}
+
+@media (min-width: 768px) {
+  .button-66 {
+    padding: 16px 44px;
+    min-width: 150px;
+  }
+}
+
+.rig {
+  display: flex;
+  align-items: center;
+}
+
+.button-17 {
+  align-items: center;
+  appearance: none;
+  background-color: #0165c9;
+  border-radius: 24px;
+  border-style: none;
+  box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  fill: currentcolor;
+  font-family: "Google Sans",Roboto,Arial,sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  height: 48px;
+  justify-content: center;
+  letter-spacing: .25px;
+  line-height: normal;
+  max-width: 100%;
+  overflow: visible;
+  padding: 2px 24px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transition: box-shadow 280ms cubic-bezier(.4, 0, .2, 1),opacity 15ms linear 30ms,transform 270ms cubic-bezier(0, 0, .2, 1) 0ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: auto;
+  will-change: transform,opacity;
+  z-index: 0;
+}
+
+.button-17:hover {
+  background: #F6F9FE;
+  color: #174ea6;
+}
+
+.button-17:active {
+  box-shadow: 0 4px 4px 0 rgb(60 64 67 / 30%), 0 8px 12px 6px rgb(60 64 67 / 15%);
+  outline: none;
+}
+
+.button-17:focus {
+  outline: none;
+  border: 2px solid #4285f4;
+}
+
+.button-17:not(:disabled) {
+  box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+}
+
+.button-17:not(:disabled):hover {
+  box-shadow: rgba(60, 64, 67, .3) 0 2px 3px 0, rgba(60, 64, 67, .15) 0 6px 10px 4px;
+}
+
+.button-17:not(:disabled):focus {
+  box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+}
+
+.button-17:not(:disabled):active {
+  box-shadow: rgba(60, 64, 67, .3) 0 4px 4px 0, rgba(60, 64, 67, .15) 0 8px 12px 6px;
+}
+
+.button-17:disabled {
+  box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+}
