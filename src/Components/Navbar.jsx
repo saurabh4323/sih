@@ -1,5 +1,5 @@
 import React from "react";
-import "./Navbar.css"; // Import your navbar styles here
+import "./navbar.css"; // Import your navbar styles here
 import { UserButton, useUser } from "@clerk/clerk-react";
 import { Link, useNavigate } from "react-router-dom";
 
