@@ -1,12 +1,15 @@
 import "./App.css";
-import Auth from "./Components/Auth";
-import Hero from "./Components/Hero";
 import Navbar from "./Components/Navbar";
+import Footer from "./Components/Footer";
+import { Outlet } from "react-router-dom";
 
 function App() {
   return (
     <>
-      <Hero></Hero>
+      <Navbar />
+      {/* Outlet will render the component corresponding to the current route */}
+      <Outlet />
+      <Footer />
     </>
   );
 }

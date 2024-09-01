@@ -1,0 +1,144 @@
+.con {
+  height: 130vh;
+  width: 100%;
+  background-image: url("code.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-content {
+  text-align: center;
+  margin-top: -30px;
+  height: 120vh;
+  color: #0f0f0f;
+  width: 90%;
+  background: rgba(12, 49, 236, 0.112);
+  border-radius: 10px;
+}
+
+.hero-title {
+  color: #0732ef;
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.hero-button {
+  border: 2px solid #0f0f0f;
+  padding: 0.75rem 1.5rem;
+  background: none;
+  color: #0f0f0f;
+  cursor: pointer;
+  margin-bottom: 2rem;
+  font-size: 1.2rem;
+  transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Enhanced hover effect for the button */
+.hero-button:hover {
+  background-color: #0732ef;
+  color: #fff;
+  transform: scale(1.1);
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.card-row {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem; /* Space between the two rows */
+}
+
+.card {
+  border: 2px solid #0732ef;
+  padding: 1.5rem;
+  background-color: #fff;
+  border-radius: 10px;
+  width: 300px;
+  text-align: left;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Enhanced hover effect for the cards */
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  background-color: #0731ef8c;
+  color: #fff;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #0732ef;
+  transition: color 0.3s ease;
+}
+
+/* Title color change on card hover */
+.card:hover .card-title {
+  color: #fff;
+}
+.menu-button {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.menu-button:hover {
+  background-color: #0056b3;
+}
+
+.menu {
+  position: absolute;
+  top: 50px;
+  left: 10px;
+  background-color: white;
+  border: 1px solid #ddd;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  z-index: 1000;
+  width: 150px;
+}
+
+.menu a {
+  display: block;
+  padding: 5px 10px;
+  color: black;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  background-color: #f0f0f0;
+}
+
+.card-link {
+  color: #0f0f0f;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 1rem;
+  display: inline-block;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+/* Enhanced hover effect for the card link */
+.card-link:hover {
+  color: #fff;
+  transform: scaleX(1.1);
+}

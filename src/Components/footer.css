@@ -1,0 +1,86 @@
+/* General styles for the body */
+
+/* Footer styles */
+footer {
+ 
+  /* background-image: url("code.jpg"); Replace with your background image path */
+  background-size: cover;
+  background-color: #f8f6f3;
+  background-position: center;
+  color: black;
+  padding: 50px 0;
+  position: relative;
+}
+
+.footer-container {
+ 
+  display: flex;
+  justify-content: space-around;
+  max-width: 1200px;
+  margin: auto;
+  align-items: flex-start;
+}
+
+.footer-section {
+  flex: 1;
+  padding: 0 20px;
+}
+
+.footer-section h3 img {
+  max-width: 50px; /* Adjust this size based on your logo */
+}
+
+.footer-section h4 {
+  margin-bottom: 20px;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.footer-section p, .footer-section ul, .footer-section address {
+  margin-bottom: 20px;
+  line-height: 1.6;
+  font-size: 14px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+.footer-section .socials a {
+  color: black;
+  font-size: 20px;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.footer-bottom {
+  background-color: rgba(0, 0, 0, 0.7);
+  text-align: center;
+  padding: 10px 0;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
+.footer-bottom p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.footer-section address p, .footer-section address a {
+  margin-bottom: 10px;
+  color: black;
+  font-size: 14px;
+  text-decoration: none;
+}

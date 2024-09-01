@@ -1,0 +1,71 @@
+.stats-container {
+  background-color: #0d4af2; /* Blue background */
+  color: #d8ff56; /* Light green color for text */
+  text-align: center;
+  padding: 50px 0;
+}
+
+.stats-container h2 {
+  font-size: 2.5em;
+  margin-bottom: 30px;
+  color: #ffffff; /* White text for the title */
+}
+
+.stats-grid {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.stat-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stat-icon {
+  margin-bottom: 15px;
+  background-color: #d8ff56; /* Light green color */
+}
+
+/* Custom shapes based on the provided image */
+.icon1 {
+  width: 80px;
+  height: 60px;
+  background-color: #d8ff56; /* Light green color */
+  clip-path: polygon(0 100%, 0 0, 60% 0, 100% 50%, 60% 100%); /* Left semi-rounded with a square */
+}
+
+.icon2 {
+  width: 60px;
+  height: 60px;
+  background-color: #d8ff56; /* Light green color */
+  clip-path: circle(64%); /* Circular shape */
+  position: relative;
+  top: 10px; /* Adjust position to mimic overlap */
+}
+
+.icon3 {
+  width: 80px;
+  height: 60px;
+  background-color: #d8ff56; /* Light green color */
+  clip-path: path('M 20 0 Q 40 30 60 0 T 100 0 V 100 H 0 Z'); /* Semi-circle with a hump */
+}
+
+.icon4 {
+  width: 80px;
+  height: 60px;
+  background-color: #d8ff56; /* Light green color */
+  clip-path: polygon(0 0, 60% 0, 100% 100%, 50% 80%, 0 100%); /* L-shaped with a round edge */
+}
+
+.stat-item h3 {
+  font-size: 2em;
+  margin: 0;
+}
+
+.stat-item p {
+  margin-top: 5px;
+  font-size: 1em;
+  color: #ffffff; /* White text for descriptions */
+}

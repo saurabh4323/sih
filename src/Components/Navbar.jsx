@@ -1,29 +1,48 @@
-import React from "react";
-import "./Navbar.css"; // Import your navbar styles here
+import React, { useState } from "react";
+import "./navbar.css";
 import { UserButton, useUser } from "@clerk/clerk-react";
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
-  const { user, isLoaded, isSignedIn } = useUser();
-  const navigate = useNavigate();
+  const { user, isSignedIn } = useUser();
+  const [menu, setMenu] = useState(false);
+  const [language, setLanguage] = useState("english");
 
-  const handleScroll = (section) => {
-    const element = document.getElementById(section);
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
-    }
-    //   {isSignedIn ? <UserButton /> : <Link to="/sign">Profile</Link>}
+  const toggleMenu = () => {
+    setMenu((prevMenu) => !prevMenu); // Use functional update to toggle
+    console.log("Menu toggled:", menu); // Debug line
+  };
+
+  const handleLanguageChange = (lang) => {
+    setLanguage(lang);
+    setMenu(false);
   };
 
   return (
     <div className="boxn">
       <div className="top">
         <div className="lef">
-          <img src="https://legislative.gov.in/wp-content/themes/sdo-theme/images/emblem.svg"></img>
-          <img src="l.svg"></img>
-          <a href="https://cdnbbsr.s3waas.gov.in/s380537a945c7aaa788ccfcdf1b99b5d8f/uploads/2024/07/20240716890312078.pdf">
-            <button>Charter</button>
-          </a>
+          <img
+            src="https://legislative.gov.in/wp-content/themes/sdo-theme/images/emblem.svg"
+            alt="Emblem"
+          />
+          <img src="l.svg" alt="Logo" />
+          <button onClick={toggleMenu} className="ch">
+            {language === "english" ? "Language" : "भाषा"}
+          </button>
+          {menu && (
+            <div className="menu">
+              <a href="#!" onClick={() => handleLanguageChange("hindi")}>
+                हिंदी
+              </a>
+              <a href="#!" onClick={() => handleLanguageChange("english")}>
+                English
+              </a>
+              <a href="#!" onClick={() => handleLanguageChange("telugu")}>
+                తెలుగు
+              </a>
+            </div>
+          )}
         </div>
         <div className="rig">
           {isSignedIn ? (
@@ -31,7 +50,7 @@ const Navbar = () => {
           ) : (
             <Link to="/sign">
               <button className="button-17" role="button">
-                Login
+                {language === "english" ? "Login" : "लॉगिन"}
               </button>
             </Link>
           )}
@@ -40,19 +59,21 @@ const Navbar = () => {
       <div className="bottom">
         <ul className="nav-list">
           <li className="nav-item">
-            <Link to="/">Home</Link>
+            <Link to="/">{language === "english" ? "Home" : "होम"}</Link>
           </li>
           <li className="nav-item">
-            <Link to="/feature">Learn</Link>
+            <Link to="/feature">
+              {language === "english" ? "Learn" : "सीखें"}
+            </Link>
           </li>
           <li className="nav-item">
-            <Link to="/blog">Blog</Link>
+            <Link to="/blog">{language === "english" ? "Blog" : "ब्लॉग"}</Link>
           </li>
           <li className="nav-item">
-            <Link to="/games">Games</Link>
+            <Link to="/games">{language === "english" ? "Games" : "खेल"}</Link>
           </li>
           <li className="nav-item">
-            <Link to="/about-us">About Us</Link>
+            <Link to="/tour">{language === "english" ? "Tour" : "यात्रा"}</Link>
           </li>
         </ul>
       </div>

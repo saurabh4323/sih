@@ -1,0 +1,298 @@
+.bdl {
+  font-family: 'Arial', sans-serif;
+  background-image: url("code.jpg");
+  background-size: cover;
+  margin-top: -20px;
+  /* background-color: #f4f4f4; */
+  width: 100%;
+  height: 160vh;
+}
+
+.blog-section {
+  height: 96vh;
+  text-align: center;
+  width: 90%;
+  padding-left: 40px;
+  margin-left: 12%;
+  /* margin: 50px auto; */
+  
+}
+
+.blog-header h1 {
+  margin-left: -20%;
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.blog-header p {
+  margin-left: -20%;
+  font-size: 1.2em;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.view-all-btn {
+  margin-left: -20%;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  text-transform: uppercase;
+  margin-top: 20px;
+  transition: background-color 0.3s;
+}
+
+.view-all-btn:hover {
+  background-color: #0056b3;
+}
+
+.blog-cards {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  flex-wrap: wrap;
+  height: 300px;
+  width: 80%;
+}
+
+.blog-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 30%;
+  margin-bottom: 20px;
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+
+.blog-card:hover {
+  transform: translateY(-5px);
+}
+
+.blog-image-container {
+  position: relative;
+  
+}
+
+.blog-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  /* padding: 20px; */
+  /* border:200px #fff ; */
+}
+.blog-category {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: #007bff;
+  color: #fff;
+  padding: 5px 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.blog-content {
+  padding: 20px;
+  text-align: left;
+}
+
+.blog-date {
+  color: #777;
+  font-size: 0.9em;
+  margin-bottom: 10px;
+  display: block;
+}
+
+/* Existing styles above... */
+
+.plus-button {
+  position: absolute;
+  /* top: 50%; */
+  /* bottom: -62%; */
+  right: 2%; /* Adjust this to position the button properly
+  /* transform: translateY(-50%); */
+  width: 40px;
+  height: 40px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, transform 0.3s;
+  margin-top: 140px;
+}
+.plus--button {
+  position: absolute;
+  /* top: 50%; */
+  bottom: -70%;
+  /* right: 2%; /* Adjust this to position the button properly */
+  /* transform: translateY(-50%); */
+  width: 40px;
+  height: 40px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, transform 0.3s;
+  /* margin-top: -50 px; */
+}
+.plus---button {
+  /* position: absolute; */
+  /* top: 50%; */
+  /* bottom: -80%; */
+  right: 2%; /* Adjust this to position the button properly
+  /* transform: translateY(-50%); */
+  width: 40px;
+  height: 40px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, transform 0.3s;
+  margin-top: 50px;
+}
+.jk{
+  
+  background-color: #0378f5a6;
+  border-radius: 20px;
+}
+/* General container for feedback items */
+/* Ensure the dialog is positioned above everything */
+.dialog {
+  z-index: 10; /* Higher z-index to ensure it's above other content */
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border-radius: 20px;
+  text-align: center;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  margin: 20px auto; /* Center horizontally with margin */
+  width: 400px;
+  height: auto; /* Adjust height based on content */
+  position: fixed; /* Fixes the dialog to the viewport */
+  top: 20px; /* Adjust as needed to position it */
+  left: 50%; /* Center horizontally */
+  transform: translateX(-50%); /* Center horizontally */
+  background-color: white; /* Background color for contrast */
+  padding: 20px; /* Add padding inside the dialog */
+}
+
+/* Ensure feedback section is below the dialog */
+.saved-feedback {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center align the feedback items */
+  gap: 1rem; /* Space between feedback items */
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 10px; /* Rounded corners for a softer look */
+}
+
+/* Individual feedback item */
+.feedback-item {
+  /* z-index: 1; */
+  border: 1px solid #000;
+  background-color: #ffffffd0; /* White background for contrast */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  border-radius: 8px; /* Rounded corners */
+  padding: 15px; /* Internal padding */
+  width: 100%;
+  max-width: 500px; /* Set a max-width for better responsiveness */
+  transition: transform 0.2s ease, box-shadow 0.2s ease; /* Smooth transition for hover effect */
+}
+
+/* Feedback text styling */
+.feedback-text {
+  color: #333; /* Darker color for text */
+  font-size: 1rem; /* Slightly larger font size */
+  margin-bottom: 10px; /* Space between text and button */
+  line-height: 1.5; /* Increase line height for better readability */
+}
+
+/* Hover effect for feedback item */
+.feedback-item:hover {
+  transform: translateY(-5px); /* Slight lift on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Slightly deeper shadow on hover */
+}
+
+/* Delete button styling */
+.delete-btn {
+  background-color: #e74c3c; /* Red color for delete button */
+  color: white; /* White text for contrast */
+  border: none; /* Remove default border */
+  border-radius: 4px; /* Rounded corners */
+  padding: 8px 16px; /* Padding for button */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-size: 0.9rem; /* Adjust font size */
+  transition: background-color 0.2s ease, transform 0.2s ease; /* Smooth transition for hover effect */
+}
+
+/* Hover effect for delete button */
+.delete-btn:hover {
+  background-color: #c0392b; /* Darker red on hover */
+  transform: scale(1.05); /* Slight scale effect on hover */
+}
+
+.jk:hover{
+  color: aliceblue;
+  background-color: rgb(5, 56, 150);
+}
+.plus-button:hover {
+  background-color: #0056b3;
+  transform: translateY(-50%) scale(1.1);
+}
+.plus--button:hover {
+  background-color: #0056b3;
+  transform: translateY(-50%) scale(1.1);
+}
+.plus---button:hover {
+  background-color: #0056b3;
+  transform: translateY(-50%) scale(1.1);
+}
+
+/* Ensure the button stays within the card area on small screens */
+@media (max-width: 768px) {
+  .plus-button {
+      right: -10px; /* Adjust this for smaller screens */
+      width: 35px;
+      height: 35px;
+      font-size: 1.3em;
+      
+  }
+}
+
+
+.blog-content h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #0056b3;
+}
+
+.blog-content p {
+  color: #0056b3;
+  font-size: 1em;
+  margin-bottom: 20px;
+}

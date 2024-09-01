@@ -1,13 +1,14 @@
 /* General styling for the container and navigation */
 .boxn {
-  box-shadow: rgba(79, 127, 170, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  /* box-shadow: rgba(79, 127, 170, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px; */
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   display: flex;
   flex-direction: column;
   
   width: 100%;
   margin-top: 1px;
-  height: 80px;
-  background-color: rgb(239, 246, 252);
+  height: 70px;
+  background-color: #f8f6f3;
 }
 
 .top {
@@ -63,16 +64,19 @@
 
 /* Navigation styling */
 .nav-list {
+ 
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   list-style: none;
   padding: 0;
-  margin: 0;
+  /* margin: 0; */
   display: flex;
   justify-content: center;
 }
 
 .nav-item {
-  margin: 0 15px;
+  margin-left: -20px;
+  margin-top: -20px;
+  /* margin: 0 15px; */
   position: relative;
   overflow: hidden;
   cursor: pointer;
@@ -101,6 +105,55 @@
   font-weight: 400;
   src: local('Lato Regular'), local('Lato-Regular'), url(http://themes.googleusercontent.com/static/fonts/lato/v6/9k-RPmcnxYEPm8CNFsH2gg.woff) format('woff');
 }
+.menu {
+  position: absolute;
+  top: 50px; /* Adjust this value based on your design */
+  left: 0;
+  background-color: white;
+  border: 1px solid #ddd;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  z-index: 1000;
+  width: 150px; /* Adjust width as needed */
+}
+
+.menu a {
+  display: block;
+  padding: 5px 10px;
+  color: black;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  background-color: #f0f0f0;
+}
+/* Add your existing styles here */
+
+.menu {
+  position: absolute; /* Make sure the menu is positioned correctly */
+  top: 60px; /* Adjust this value based on the position of your button */
+  right: 0; /* Align the menu to the right of the button */
+  background: white; /* Background color of the menu */
+  border: 1px solid #ddd; /* Border around the menu */
+  border-radius: 4px; /* Rounded corners */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Add a subtle shadow */
+  display: flex; /* Use flexbox for layout */
+  flex-direction: column; /* Arrange items in a column */
+  padding: 10px; /* Add some padding inside the menu */
+  z-index: 1000; /* Ensure the menu appears on top of other elements */
+}
+
+.menu a {
+  text-decoration: none; /* Remove underline from links */
+  color: black; /* Text color */
+  padding: 10px; /* Add some padding around the text */
+  display: block; /* Make each link block-level */
+}
+
+.menu a:hover {
+  background: #f0f0f0; /* Add a hover effect */
+}
+
 
 @font-face {
   font-family: 'Lato';
@@ -112,7 +165,7 @@
 /* Nav List Styles */
 .nav-list {
   margin-left: 17%;
-  margin-top: -30px;
+  margin-top: -50px;
   font-family: 'Lato', sans-serif; /* Apply Lato font */
   list-style: none;
   padding: 0;
@@ -202,7 +255,7 @@
 @media (min-width: 768px) {
   .button-66 {
     padding: 16px 44px;
-    min-width: 150px;
+    width: 30px;
   }
 }
 
@@ -240,7 +293,7 @@
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-  width: auto;
+  width: 80px;
   will-change: transform,opacity;
   z-index: 0;
 }
@@ -278,4 +331,20 @@
 
 .button-17:disabled {
   box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+}
+@media (max-width: 768px) {
+  .lef img{
+    width: 20px;
+  }
+  .nav-item a{
+   
+    display: flex;
+    margin-left: -20px;
+    margin-top: 20px;
+    font-size: 8px;
+  }
+  .ch{
+    width: 70px;
+    height: 10px;
+  }
 }
