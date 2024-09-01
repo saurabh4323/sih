@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./tour.css"; // Import the CSS file
+import "./Tour.css"; // Import the CSS file
 import Navbar from "./Navbar";
 
 const Tour = () => {
