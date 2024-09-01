@@ -40,7 +40,7 @@
 
 /* Enhanced hover effect for the button */
 .hero-button:hover {
-  background-color: #0732ef;
+  background-color: #0731efa4;
   color: #fff;
   transform: scale(1.1);
 }

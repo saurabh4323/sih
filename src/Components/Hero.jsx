@@ -6,6 +6,7 @@ import "./navbar.css";
 import Footer from "./Footer";
 import Cons from "./cons";
 import Contact from "./Contact";
+import Chatbot from "./Chatbot";
 
 const Hero = () => {
   const [isMenuVisible, setMenuVisible] = useState(false);
@@ -29,6 +30,9 @@ const Hero = () => {
     <>
       {/* <Navbar changeLanguage={changeLanguage} /> */}
       <div className="con">
+        <div className="mi" style={{ display: "none" }}>
+          <Chatbot></Chatbot>
+        </div>
         <div className="hero-content">
           <h1 className="hero-title">
             {language === "en"
@@ -147,6 +151,7 @@ const Hero = () => {
       </div>
       <Cons />
       <Contact></Contact>
+
       {/* <Footer /> */}
     </>
   );

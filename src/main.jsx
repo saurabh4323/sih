@@ -12,6 +12,8 @@ import Hero from "./Components/Hero";
 import Quiz from "./Components/Quiz";
 import Cs from "./Components/Cs";
 import Blog from "./Components/Blog";
+import Guess from "./Components/Guess";
+import Feature from "./Components/Feature";
 const PUBLISHABLE_KEY = import.meta.env.VITE_CLERK_PUBLISHABLE_KEY;
 if (!PUBLISHABLE_KEY) {
   throw new Error("Missing Publishable Key");
@@ -31,9 +33,14 @@ const router = createBrowserRouter([
         path: "/games",
         element: <Game />,
       },
+      { path: "/guess", element: <Guess></Guess> },
       {
         path: "/crossword",
         element: <Cs></Cs>,
+      },
+      {
+        path: "/feature",
+        element: <Feature></Feature>,
       },
       {
         path: "/blog",
@@ -47,6 +54,7 @@ const router = createBrowserRouter([
       {
         path: "/quiz",
         element: <Quiz></Quiz>,
+        // element: <Guess></Guess>,
       },
       {
         path: "/contact",

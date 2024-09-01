@@ -1,6 +1,7 @@
 import React, { useState } from "react";
-import "./tour.css"; // Import the CSS file
+import "./Tour.css"; // Import the CSS file
 import Navbar from "./Navbar";
+import Chatbot from "./Chatbot";
 
 const Tour = () => {
   const [activeIndex, setActiveIndex] = useState(0);

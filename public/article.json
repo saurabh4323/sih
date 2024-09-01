@@ -1,0 +1,351 @@
+{
+  "articles": [
+    {
+      "number": "12b",
+      "title": "Definition of State",
+      "explanation": "Article 12 says that the government is considered a 'state' and includes all government agencies and officials. Think of it as saying, 'The government and its parts are all in this big team!'",
+      "example": "If you have a problem with a government office or a school that’s run by the government, Article 12 means you can ask for help or justice because they are all part of this big government team."
+    },
+    {
+      "number": "21",
+      "title": "Right to Life and Personal Liberty",
+      "explanation": "Article 21 guarantees that everyone has the right to live freely and make their own choices as long as they don’t harm others. It's like saying, 'You get to live your life as you want, but you need to be respectful of others.'",
+      "example": "Imagine you want to start a new hobby or move to a different city. Article 21 says you can do those things, as long as you follow the rules and don’t hurt anyone."
+    },
+    {
+      "number": "44",
+      "title": "Uniform Civil Code",
+      "explanation": "Article 44 suggests that everyone should be treated the same under one set of laws, no matter what religion or community they belong to. It’s like having one set of school rules that everyone follows, no matter which class they are in.",
+      "example": "If you’re in a class where everyone has to follow the same rules about homework, Article 44 is like saying, 'Everyone, no matter where they come from, should follow the same laws.'"
+    },
+    {
+      "number": "50",
+      "title": "Separation of Judiciary from Executive",
+      "explanation": "Article 50 says that the courts and judges should be separate from government officials who run things like schools or police. Think of it as saying, 'Keep the people who decide the rules separate from the people who enforce them!'",
+      "example": "If you have a dispute and go to court, the judge should not be the same person who runs your local police station. This separation helps keep everything fair and unbiased."
+    },
+    
+    {
+      "number": "21",
+      "title": "Right to Life and Personal Liberty",
+      "explanation": "Article 21 guarantees that everyone has the right to live freely and make their own choices as long as they don’t harm others. It's like saying, 'You get to live your life as you want, but you need to be respectful of others.'",
+      "example": "Imagine you want to start a new hobby or move to a different city. Article 21 says you can do those things, as long as you follow the rules and don’t hurt anyone."
+    },
+    {
+      "number": "22",
+      "title": "Protection Against Arrest and Detention",
+      "explanation": "Article 22 provides protection against arbitrary arrest and detention, ensuring that everyone has rights when they are detained. It’s like saying, 'If you’re in trouble, the law has to treat you fairly and give you a chance to defend yourself.'",
+      "example": "If someone is arrested, Article 22 makes sure they have the right to know why they’re being detained and to have a lawyer."
+    },
+    {
+      "number": "23",
+      "title": "Prohibition of Traffic in Human Beings and Forced Labor",
+      "explanation": "Article 23 prohibits human trafficking and forced labor, ensuring that no one can be treated like property or made to work against their will. It's like saying, 'You can’t be bought, sold, or forced to do something you don’t want to do.'",
+      "example": "If someone tries to force you to work without pay or under threat, Article 23 protects you by saying that it’s illegal."
+    },
+    {
+      "number": "24",
+      "title": "Prohibition of Employment of Children in Factories",
+      "explanation": "Article 24 prohibits the employment of children under the age of 14 in factories or hazardous work environments. It’s like saying, 'Kids should be learning and playing, not working in dangerous places.'",
+      "example": "If a child is being made to work in a factory, Article 24 protects them by saying this is illegal and they should be in school instead."
+    },
+    {
+      "number": "25",
+      "title": "Freedom of Conscience and Free Profession, Practice, and Propagation of Religion",
+      "explanation": "Article 25 guarantees freedom of religion, allowing people to follow, practice, and share their beliefs as they choose. It’s like saying, 'You’re free to believe what you want and share your beliefs with others.'",
+      "example": "If you want to celebrate a religious festival or talk about your beliefs, Article 25 ensures you have the right to do so."
+    },
+    {
+      "number": "26",
+      "title": "Freedom to Manage Religious Affairs",
+      "explanation": "Article 26 allows religious groups to manage their own affairs, like running their own places of worship. It’s like saying, 'Religious groups can take care of their own business and make their own decisions.'",
+      "example": "If a religious community wants to build a temple or mosque, Article 26 ensures they can do this without interference."
+    },
+    {
+      "number": "27",
+      "title": "Freedom as to Payment of Taxes for Promotion of Any Particular Religion",
+      "explanation": "Article 27 ensures that no one can be forced to pay taxes that go specifically toward promoting a particular religion. It’s like saying, 'Your taxes can’t be used to support a religion unless you choose to give them.'",
+      "example": "If the government tries to use public money to promote a specific religion, Article 27 protects you from being forced to contribute."
+    },
+    {
+      "number": "28",
+      "title": "Freedom as to Attendance at Religious Instruction or Religious Worship in Certain Educational Institutions",
+      "explanation": "Article 28 states that no one can be forced to participate in religious activities or worship in educational institutions that are fully or partly funded by the government. It’s like saying, 'You don’t have to take part in religious practices if you don’t want to.'",
+      "example": "If a school is run by the government, Article 28 ensures that students aren’t forced to attend religious classes or ceremonies."
+    },
+    {
+      "number": "29",
+      "title": "Protection of Interests of Minorities",
+      "explanation": "Article 29 protects the cultural, educational, and linguistic rights of minorities, ensuring they can preserve their unique identities. It’s like saying, 'Everyone has the right to keep their culture, language, and traditions alive.'",
+      "example": "If a community speaks a different language, Article 29 ensures that they can continue to use and teach that language in their schools."
+    },
+    {
+      "number": "30",
+      "title": "Right of Minorities to Establish and Administer Educational Institutions",
+      "explanation": "Article 30 gives minorities the right to set up and run their own educational institutions to preserve their culture and language. It’s like saying, 'You can create your own school to teach your culture and language.'",
+      "example": "If a minority group wants to start a school that teaches in their native language, Article 30 allows them to do so."
+    },
+    {
+      "number": "31",
+      "title": "Right to Property (Repealed)",
+      "explanation": "Article 31 originally provided the right to property, but it was repealed in 1978. Now, the right to property is a legal right, not a fundamental right. It’s like saying, 'You have the right to own property, but it’s not protected as a fundamental right anymore.'",
+      "example": "Although Article 31 was repealed, you still have the legal right to own property, just not as a fundamental right."
+    },
+    {
+      "number": "32",
+      "title": "Right to Constitutional Remedies",
+      "explanation": "Article 32 allows people to go to the Supreme Court to enforce their fundamental rights. It’s like saying, 'If your rights are violated, you can go straight to the top court for help.'",
+      "example": "If someone violates your fundamental rights, Article 32 gives you the power to take your case directly to the Supreme Court."
+    },
+    {
+      "number": "33",
+      "title": "Power of Parliament to Modify the Rights Conferred by this Part in Their Application to Forces, etc.",
+      "explanation": "Article 33 gives Parliament the authority to limit or change the application of fundamental rights for the armed forces, police, and other security forces. It’s like saying, 'In special cases, the government can adjust rights for people in uniform.'",
+      "example": "If the government decides that certain rights need to be limited for soldiers, Article 33 allows Parliament to make those changes."
+    },
+    {
+      "number": "34",
+      "title": "Restriction on Rights Conferred by this Part While Martial Law is in Force in Any Area",
+      "explanation": "Article 34 allows the government to impose restrictions on fundamental rights when martial law is in effect in any area. It’s like saying, 'During extreme situations, some rights might be limited to maintain order.'",
+      "example": "If martial law is declared in a region, Article 34 allows the government to temporarily limit certain rights to control the situation."
+    },
+    {
+      "number": "35",
+      "title": "Legislation to Give Effect to the Provisions of This Part",
+      "explanation": "Article 35 gives Parliament the power to create laws to enforce the fundamental rights listed in the Constitution. It’s like saying, 'Parliament can make the rules to ensure these rights are protected.'",
+      "example": "If a new law is needed to protect your fundamental rights, Article 35 gives Parliament the authority to create that law."
+    },
+    {
+      "number": "36",
+      "title": "Definition of State",
+      "explanation": "Article 36 provides the definition of the term 'State' in the context of the Directive Principles of State Policy. It’s like saying, 'When we talk about the state here, we mean the government and all its parts.'",
+      "example": "If a law or policy is being discussed, Article 36 clarifies that 'State' refers to the government and its agencies."
+    },
+    {
+      "number": "37",
+      "title": "Application of the Principles Contained in this Part",
+      "explanation": "Article 37 states that while the Directive Principles are not enforceable by any court, they are fundamental in the governance of the country and it is the duty of the State to apply these principles in making laws. It’s like saying, 'These guidelines are super important for making laws, even if you can’t go to court over them.'",
+      "example": "If the government is creating a new law, Article 37 encourages them to follow these important principles, even though you can’t sue if they don’t."
+    },
+    {
+      "number": "38",
+      "title": "State to Secure a Social Order for the Promotion of Welfare of the People",
+      "explanation": "Article 38 directs the State to ensure social, economic, and political justice for all citizens to promote their welfare. It’s like saying, 'The government should work to make sure everyone has a fair chance at a good life.'",
+      "example": "If there are inequalities in society, Article 38 encourages the government to take steps to fix them."
+    },
+    {
+      "number": "39",
+      "title": "Certain Principles of Policy to be Followed by the State",
+      "explanation": "Article 39 lists specific principles that the State should follow, such as providing equal pay for equal work and protecting the health of workers. It’s like saying, 'Here are some key rules the government should follow to take care of its people.'",
+      "example": "If the government is making policies about work and pay, Article 39 ensures that they consider fairness and equality."
+    },
+    {
+      "number": "40",
+      "title": "Organization of Village Panchayats",
+      "explanation": "Article 40 directs the State to organize village panchayats and give them powers to function as units of self-government. It’s like saying, 'Let’s make sure local villages have the power to govern themselves and make their own decisions.'",
+      "example": "If a village wants to manage its own affairs, Article 40 encourages the government to support this by establishing a village panchayat."
+    }
+,
+    {
+      "number": "72",
+      "title": "Pardoning Powers of the President",
+      "explanation": "Article 72 allows the President to forgive people who have been convicted of crimes, like giving them a second chance. It’s like saying, 'The President can sometimes give people a fresh start if they’ve made a mistake.'",
+      "example": "If someone made a big mistake in the past and is now trying to make things right, the President can decide to forgive them and remove their punishment. It’s a way to offer people a chance to improve."
+    },
+    {
+      "number": "79",
+      "title": "Constitution of Parliament",
+      "explanation": "Article 79 talks about how the Indian Parliament is made up of two parts: the Lok Sabha (House of the People) and the Rajya Sabha (Council of States). Think of it as a big team with two groups working together to make laws.",
+      "example": "Imagine your school has a student council and a teachers' committee. Article 79 is like saying, 'India’s Parliament works like this: there are two groups that help make decisions, just like your school has two groups working together.'"
+    }
+    
+  ,{
+    "number": "90",
+    "title": "Resignation and Removal of Deputy Chairman",
+    "explanation": "Article 90 deals with the procedures for the resignation and removal of the Deputy Chairman of the Rajya Sabha (Council of States). It ensures that there are clear rules for these processes.",
+    "example": "If the Deputy Chairman of the Rajya Sabha decides to step down, Article 90 lays out how they can do so and how the Rajya Sabha can formally accept their resignation."
+  },
+  {
+    "number": "91",
+    "title": "Power of the Chairman or Deputy Chairman to perform duties of the office",
+    "explanation": "Article 91 specifies the powers and responsibilities of the Chairman or Deputy Chairman when presiding over the Rajya Sabha, especially when there is a vacancy in either of these offices.",
+    "example": "If the Chairman of the Rajya Sabha is absent or the position is vacant, Article 91 ensures that the Deputy Chairman can step in to maintain the functioning of the House."
+  },
+  {
+    "number": "92",
+    "title": "The Vice-President to be ex officio Chairman of the Council of States",
+    "explanation": "Article 92 establishes that the Vice-President of India serves as the ex officio Chairman of the Rajya Sabha, meaning they preside over its sessions.",
+    "example": "The Vice-President has the important role of guiding the proceedings of the Rajya Sabha, ensuring that debates and decisions are conducted smoothly."
+  },
+  {
+    "number": "93",
+    "title": "The Speaker or the Deputy Speaker not to preside while a resolution for his removal from office is under consideration",
+    "explanation": "Article 93 stipulates that neither the Speaker nor the Deputy Speaker of the Lok Sabha should preside over the House while a resolution for their removal is being considered.",
+    "example": "This ensures impartiality and fairness during discussions about their removal, as they cannot influence the proceedings directly."
+  },
+  {
+    "number": "94",
+    "title": "Resignation and Removal of Speaker and Deputy Speaker",
+    "explanation": "Article 94 outlines the procedures for the resignation and removal of the Speaker and Deputy Speaker of the Lok Sabha, providing clarity on how these offices can be vacated.",
+    "example": "If the Speaker of the Lok Sabha wants to resign or if the members want to remove them, Article 94 lays down the steps to be followed to ensure a proper and fair process."
+  },
+  {
+    "number": "95",
+    "title": "Power of the Speaker or Deputy Speaker to perform the duties of the office",
+    "explanation": "Article 95 specifies the duties and powers of the Speaker or Deputy Speaker in conducting the sessions of the Lok Sabha, especially when the Speaker is absent or the position is vacant.",
+    "example": "When the Speaker of the Lok Sabha is not available, the Deputy Speaker can step in to preside over the House, ensuring that its work continues without interruption."
+  },
+  {
+    "number": "96",
+    "title": "The Speaker or the Deputy Speaker not to preside while a resolution for his removal from office is under consideration",
+    "explanation": "Article 96 repeats the principle from Article 93 but specifically relates to the Speaker and Deputy Speaker of the Lok Sabha, ensuring fairness when a motion for their removal is under discussion.",
+    "example": "This ensures that the Speaker or Deputy Speaker does not influence proceedings if their removal is being debated."
+  },
+  {
+    "number": "97",
+    "title": "Salaries and allowances of the officers of Parliament",
+    "explanation": "Article 97 outlines the salaries, allowances, and privileges of the Speaker, Deputy Speaker, and other parliamentary officers, ensuring they are compensated for their responsibilities.",
+    "example": "The Speaker of the Lok Sabha and other officers receive a salary and other benefits for their role, which are defined and protected by Article 97."
+  },
+  {
+    "number": "98",
+    "title": "Secretariat of Parliament",
+    "explanation": "Article 98 provides for a separate secretariat for each House of Parliament, with its staff and officials to assist in the functioning of the Parliament.",
+    "example": "Each House of Parliament has its own secretarial staff who help in managing day-to-day operations, as outlined in Article 98."
+  },
+  {
+    "number": "99",
+    "title": "Oath or Affirmation by Members",
+    "explanation": "Article 99 mandates that every member of Parliament must take an oath or make an affirmation before taking their seat, pledging to uphold the Constitution and perform their duties faithfully.",
+    "example": "Before a newly elected Member of Parliament can start their work, they must take an oath to respect the Constitution and serve the nation, as required by Article 99."
+  },
+  {
+    "number": "100",
+    "title": "Voting in Houses, Power of Houses to Act Notwithstanding Vacancies and Quorum",
+    "explanation": "Article 100 outlines the rules for voting in the Houses of Parliament, the power of the Houses to continue working even if there are vacancies, and the quorum required for conducting business.",
+    "example": "This article ensures that parliamentary work continues even if some seats are vacant, and it sets the minimum number of members required to be present for the House to function."
+  }
+  ,{
+    "number": "1",
+    "title": "Name and Territory of the Union",
+    "explanation": "Article 1 declares that India is a Union of States and lays down the territories that are included within the Union. It’s like saying, 'India is made up of different states, but together they form one country.'",
+    "example": "Imagine a map where all the states like Maharashtra, Tamil Nadu, and others together make up the country called India. Article 1 is what legally defines this map."
+  },
+  {
+    "number": "2",
+    "title": "Admission or Establishment of New States",
+    "explanation": "Article 2 empowers the Parliament to admit new states into the Union of India or create new states. Think of it as a way for India to grow and include new regions.",
+    "example": "If a new region wants to join India or if a part of India is reorganized into a new state, Article 2 is the legal process for making that happen."
+  },
+  {
+    "number": "3",
+    "title": "Formation of New States and Alteration of Areas, Boundaries or Names of Existing States",
+    "explanation": "Article 3 allows Parliament to change the boundaries, names, or areas of existing states and create new ones. It's like having the power to redraw the map when needed.",
+    "example": "When Telangana was separated from Andhra Pradesh to form a new state, Article 3 was the legal basis for that change."
+  },
+  {
+    "number": "4",
+    "title": "Laws Made Under Articles 2 and 3",
+    "explanation": "Article 4 clarifies that laws made under Articles 2 and 3 regarding new states or changes to states are not considered constitutional amendments. It’s like saying, 'Changing the map doesn’t need a big legal overhaul.'",
+    "example": "When new states are created or boundaries are altered, Article 4 ensures that these changes can happen without needing to amend the entire Constitution."
+  },
+  {
+    "number": "5",
+    "title": "Citizenship at the Commencement of the Constitution",
+    "explanation": "Article 5 deals with the citizenship of people in India when the Constitution came into effect. It’s like saying, 'Whoever was living in India when we started, you're a citizen.'",
+    "example": "If you were living in India on January 26, 1950, when the Constitution was adopted, Article 5 ensured you were considered a citizen of India."
+  },
+  {
+    "number": "6",
+    "title": "Rights of Citizenship of Certain Persons who have Migrated to India from Pakistan",
+    "explanation": "Article 6 grants citizenship rights to people who migrated to India from Pakistan before July 19, 1948. It’s a special rule for those who moved during that time.",
+    "example": "If someone moved from Pakistan to India after the partition but before July 19, 1948, Article 6 provided them with Indian citizenship."
+  },
+  {
+    "number": "7",
+    "title": "Rights of Citizenship of Certain Migrants to Pakistan",
+    "explanation": "Article 7 addresses the citizenship of people who moved to Pakistan but returned to India afterward. It’s like a rule for those who came back and want to be Indian citizens again.",
+    "example": "If someone initially migrated to Pakistan but later returned to India, Article 7 dealt with their citizenship status."
+  },
+  {
+    "number": "8",
+    "title": "Rights of Citizenship of Certain Persons of Indian Origin Residing Outside India",
+    "explanation": "Article 8 provides for the citizenship rights of people of Indian origin living outside India. It’s like saying, 'Even if you live abroad, if you’re of Indian origin, you can be a citizen.'",
+    "example": "An Indian family living in the UK who were originally from India could claim Indian citizenship under Article 8."
+  },
+  {
+    "number": "9",
+    "title": "Persons Voluntarily Acquiring Citizenship of a Foreign State Not to be Citizens",
+    "explanation": "Article 9 states that anyone who voluntarily becomes a citizen of another country cannot be a citizen of India. It’s like saying, 'You have to choose: India or another country.'",
+    "example": "If someone decides to take American citizenship, Article 9 means they would lose their Indian citizenship."
+  },
+  {
+    "number": "10",
+    "title": "Continuance of the Rights of Citizenship",
+    "explanation": "Article 10 ensures that once you are a citizen of India, your rights as a citizen continue unless taken away by law. It’s like saying, 'Your citizenship is secure unless something happens by law.'",
+    "example": "If you are an Indian citizen, Article 10 guarantees that your citizenship remains unless a specific law takes it away."
+  },
+  {
+    "number": "11",
+    "title": "Parliament to Regulate the Right of Citizenship by Law",
+    "explanation": "Article 11 gives Parliament the power to make laws regarding citizenship. It’s like giving Parliament the keys to decide who can be a citizen and how.",
+    "example": "Parliament can pass new laws to determine who can become an Indian citizen, and Article 11 gives them the authority to do so."
+  },
+  {
+    "number": "12",
+    "title": "Definition of State",
+    "explanation": "Article 12 defines the term 'State' as used in the Constitution to include the government and Parliament of India, and the government and legislature of each of the states, and all local or other authorities within the territory of India or under the control of the Government of India.",
+    "example": "If you’re dealing with any government office, whether at the national or state level, Article 12 says they are all part of the 'State' as defined by the Constitution."
+  },
+  {
+    "number": "13",
+    "title": "Laws Inconsistent with or in Derogation of the Fundamental Rights",
+    "explanation": "Article 13 ensures that any law in force that is inconsistent with the fundamental rights is invalid. It’s like saying, 'Your fundamental rights are protected, and no law can take them away.'",
+    "example": "If a law is passed that violates your freedom of speech, Article 13 would render that law invalid."
+  },
+  {
+    "number": "14",
+    "title": "Equality Before Law",
+    "explanation": "Article 14 guarantees that all people are equal before the law and deserve equal protection under the law. It’s like saying, 'Everyone should be treated the same in the eyes of the law.'",
+    "example": "If two people commit the same crime, Article 14 ensures that they both face the same legal consequences, regardless of their background."
+  },
+  {
+    "number": "15",
+    "title": "Prohibition of Discrimination on Grounds of Religion, Race, Caste, Sex or Place of Birth",
+    "explanation": "Article 15 prohibits discrimination by the state against any citizen on the grounds of religion, race, caste, sex, or place of birth. It’s like saying, 'No one can be treated unfairly because of who they are or where they come from.'",
+    "example": "If a government job application denies you because of your religion, Article 15 would make that discrimination illegal."
+  },
+  {
+    "number": "16",
+    "title": "Equality of Opportunity in Matters of Public Employment",
+    "explanation": "Article 16 ensures equal opportunities for all citizens in matters related to public employment. It’s like saying, 'Everyone has a fair shot at getting a government job, no matter their background.'",
+    "example": "When applying for a government job, Article 16 ensures that all applicants are treated equally, without favoritism based on caste or gender."
+  },
+  {
+    "number": "17",
+    "title": "Abolition of Untouchability",
+    "explanation": "Article 17 abolishes 'untouchability' and makes it an offense to practice it in any form. It’s like saying, 'No one can be treated as untouchable; everyone deserves respect.'",
+    "example": "If someone tries to discriminate against you by treating you as 'untouchable,' Article 17 protects you and makes that act punishable by law."
+  },
+  {
+    "number": "18",
+    "title": "Abolition of Titles",
+    "explanation": "Article 18 prohibits the state from conferring any titles (except military or academic distinctions). It’s like saying, 'No special titles that make some people seem better than others.'",
+    "example": "If the government wanted to give someone the title of 'Sir' or 'Lord,' Article 18 would prevent that to ensure equality."
+  },
+  {
+    "number": "19",
+    "title": "Protection of Certain Rights Regarding Freedom of Speech, etc.",
+    "explanation": "Article 19 guarantees certain freedoms, including speech and expression, assembly, association, movement, residence, and profession. It’s like saying, 'You have the freedom to express yourself, move around, and choose your work.'",
+    "example": "If you want to organize a peaceful protest or move to another state for work, Article 19 protects your right to do so."
+  },
+  {
+    "number": "20",
+    "title": "Protection in Respect of Conviction for Offenses",
+    "explanation": "Article 20 provides protection against arbitrary and retrospective punishment. It’s like saying, 'You can’t be punished for something that wasn’t illegal when you did it, and you have rights if you’re accused of a crime.'",
+    "example": "If a new law is made today, Article 20 ensures that you can’t be punished for something you did before the law existed."
+  }
+
+
+  ]
+}

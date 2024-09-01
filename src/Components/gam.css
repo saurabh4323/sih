@@ -1,0 +1,78 @@
+.hkl {
+  background-image: url("quiz.jpg");
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden; /* Prevent scrolling the entire page */
+}
+
+.quiz-container {
+  /* background-color: rgba(221, 149, 149, 0.8); Slightly transparent background for better readability */
+  padding: 20px;
+  border-radius: 10px;
+  width: 1000px;
+  max-height: 80vh; /* Limit the height of the quiz container */
+  overflow-y: auto; /* Allow scrolling within the quiz container */
+  text-align: left; /* Align text to the left */
+  position: relative; /* Make the submit button positioning relative to this container */
+  margin-top: 0; /* Ensure it starts from the top */
+}
+
+h1 {
+  font-size: 1.8em;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+hul {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+hli {
+  border: 1px solid #b99a7d;
+  height: 40px;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  display: flex;
+  align-items: center;
+}
+
+hli:hover {
+  background-color: #ffffff3d;
+}
+
+input[type="radio"] {
+  margin-right: 10px;
+}
+
+.buttonk {
+  position: fixed; /* Fix the button to the top right */
+  top: 20px; /* 20px from the top */
+  right: 20px; /* 20px from the right */
+  background-color: #4CAF50;
+  color: rgb(300,300,2000);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 110px;
+  cursor: pointer;
+  transition: background-color 3s;
+  z-index: 1000; /* Ensure the button stays above other content */
+}
+
+.buttonk:hover {
+  background-color: green;
+}
+
+.buttonk:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}

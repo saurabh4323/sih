@@ -6,7 +6,7 @@ const Auth = () => {
   return (
     <>
       {" "}
-      <Navbar></Navbar>
+      {/* <Navbar></Navbar> */}
       <div className="containe">
         <div className="sign">
           <SignIn></SignIn>

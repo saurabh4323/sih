@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./game.css";
+import "./gam.css";
 import Navbar from "./Navbar";
 
 // Define quiz data directly in the component or import from a JSON file
@@ -188,7 +188,7 @@ const Quiz = () => {
   };
 
   return (
-    <>
+    <div className="hkl">
       <div className="bodyh">
         <div className="quiz-container" id="quiz">
           {isSubmitted ? (
@@ -203,9 +203,9 @@ const Quiz = () => {
               {quizData.map((quizItem, index) => (
                 <div key={index}>
                   <h3>{quizItem.question}</h3>
-                  <ulh>
+                  <hul>
                     {Object.entries(quizItem.options).map(([key, value]) => (
-                      <lih key={key}>
+                      <hli key={key}>
                         <input
                           type="radio"
                           id={`${key}${index}`}
@@ -215,13 +215,13 @@ const Quiz = () => {
                           onChange={() => handleOptionChange(index, key)}
                         />
                         <label htmlFor={`${key}${index}`}>{value}</label>
-                      </lih>
+                      </hli>
                     ))}
-                  </ulh>
+                  </hul>
                 </div>
               ))}
               <button
-                className="h"
+                className="buttonk"
                 id="submit"
                 onClick={handleSubmit}
                 disabled={Object.keys(answers).length !== quizData.length}
@@ -232,7 +232,7 @@ const Quiz = () => {
           )}
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
