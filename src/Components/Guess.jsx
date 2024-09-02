@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import "./guess.css"; // Assuming you will create a CSS file for styling
 
 const Guess = () => {
   const articlesAndUses = [
@@ -97,35 +96,136 @@ const Guess = () => {
   };
 
   return (
-    <div className="guessa">
-      <div className="game-containerk">
-        <h1 className="op">Constitutional Matchmaker</h1>
-        <div className="timer">Time: {timeLeft}</div>
-        <div className="cardk-containerk">
+    <div
+      style={{
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
+        justifyContent: "center",
+        minHeight: "100vh",
+        backgroundColor: "#f0f8ff", // Light blue background
+        fontFamily: "'Arial', sans-serif",
+        padding: "20px",
+        boxSizing: "border-box",
+      }}
+    >
+      <div
+        style={{
+          textAlign: "center",
+          padding: "20px",
+          backgroundColor: "#ffffff",
+          borderRadius: "10px",
+          boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
+          width: "100%",
+          maxWidth: "600px",
+        }}
+      >
+        <h1 style={{ fontSize: "2rem", marginBottom: "10px", color: "#333" }}>
+          Constitutional Matchmaker
+        </h1>
+        <div
+          style={{
+            fontSize: "1.2rem",
+            marginBottom: "20px",
+            color: "#666",
+          }}
+        >
+          Time: {timeLeft}
+        </div>
+        <div
+          style={{
+            display: "grid",
+            gridTemplateColumns: "repeat(4, 1fr)",
+            gap: "10px",
+          }}
+        >
           {cards.map((card, index) => (
             <div
               key={index}
-              className={`card ${
-                flippedCards.some((fc) => fc.index === index) ? "flipped" : ""
-              } ${gameOver ? "matched" : ""}`}
+              style={{
+                perspective: "1000px",
+              }}
               onClick={() => flipCard(index)}
             >
-              <div className="cardk-inner">
-                <div className="cardk-front">?</div>
-                <div className="cardk-back">{card.value}</div>
+              <div
+                style={{
+                  position: "relative",
+                  width: "100%",
+                  paddingBottom: "100%",
+                  transformStyle: "preserve-3d",
+                  transition: "transform 0.6s",
+                  transform:
+                    flippedCards.some((fc) => fc.index === index) || gameOver
+                      ? "rotateY(180deg)"
+                      : "rotateY(0deg)",
+                  backgroundColor: "#007bff",
+                  borderRadius: "10px",
+                  cursor: "pointer",
+                }}
+              >
+                <div
+                  style={{
+                    position: "absolute",
+                    width: "100%",
+                    height: "100%",
+                    backfaceVisibility: "hidden",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    fontSize: "1.5rem",
+                    color: "#fff",
+                    borderRadius: "10px",
+                    backgroundColor: "#007bff",
+                  }}
+                >
+                  ?
+                </div>
+                <div
+                  style={{
+                    position: "absolute",
+                    width: "100%",
+                    height: "100%",
+                    backfaceVisibility: "hidden",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    fontSize: "1rem",
+                    color: "#333",
+                    transform: "rotateY(180deg)",
+                    backgroundColor: "#ffffff",
+                    border: "2px solid #007bff",
+                    borderRadius: "10px",
+                    padding: "10px",
+                    textAlign: "center",
+                  }}
+                >
+                  {card.value}
+                </div>
               </div>
             </div>
           ))}
         </div>
         {gameOver && (
-          <div className="result">
+          <div style={{ marginTop: "20px", fontSize: "1.2rem", color: "#333" }}>
             {matchedPairs === cards.length / 2
               ? "Congratulations! You've matched all pairs."
               : "Time's up! Game Over."}
           </div>
         )}
         {gameOver && (
-          <button className="buttonk" onClick={restartGame}>
+          <button
+            style={{
+              marginTop: "20px",
+              padding: "10px 20px",
+              fontSize: "1rem",
+              color: "#fff",
+              backgroundColor: "#007bff",
+              border: "none",
+              borderRadius: "5px",
+              cursor: "pointer",
+            }}
+            onClick={restartGame}
+          >
             Restart Game
           </button>
         )}

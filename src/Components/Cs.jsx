@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import "./cs.css";
 
 function Cs() {
   const crosswordData = [
@@ -103,40 +102,69 @@ function Cs() {
   };
 
   return (
-    <div className="bodyp">
-      <div className="App">
-        <h1>Constitutional Crossword Puzzle</h1>
-        <div className="crossword-grid">
-          {gridState.map((cell, index) => (
-            <div
-              key={`${cell.row}-${cell.col}`}
-              className={`crossword-cell ${
-                cell.letter === null ? "black-cell" : ""
-              }`}
-            >
-              {cell.letter !== null && (
-                <>
-                  {cell.isClueStart && (
-                    <div className="clue-number">{cell.number}</div>
-                  )}
-                  <input
-                    type="text"
-                    maxLength="1"
-                    value={cell.userAnswer}
-                    onChange={(e) => handleInputChange(index, e.target.value)}
-                  />
-                </>
-              )}
-            </div>
-          ))}
-        </div>
-        <button className="buttonk" onClick={checkAnswers}>
-          Check Answers
-        </button>
-        <button className="buttonk" onClick={resetPuzzle}>
-          Reset Puzzle
-        </button>
+    <div style={{ padding: "20px", textAlign: "center" }}>
+      <h1>Crossword Puzzle</h1>
+      <div
+        style={{
+          display: "grid",
+          gridTemplateColumns: "repeat(7, 50px)",
+          gridTemplateRows: "repeat(9, 50px)",
+          gap: "5px",
+          justifyContent: "center",
+        }}
+      >
+        {gridState.map((cell, index) => (
+          <div
+            key={index}
+            style={{
+              border: "1px solid #000",
+              position: "relative",
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+              backgroundColor: cell.letter ? "#fff" : "#ccc",
+            }}
+          >
+            {cell.isClueStart && (
+              <span
+                style={{
+                  position: "absolute",
+                  top: "2px",
+                  left: "2px",
+                  fontSize: "10px",
+                  color: "#999",
+                }}
+              >
+                {cell.number}
+              </span>
+            )}
+            {cell.letter ? (
+              <input
+                type="text"
+                maxLength="1"
+                value={cell.userAnswer}
+                onChange={(e) => handleInputChange(index, e.target.value)}
+                style={{
+                  width: "100%",
+                  height: "100%",
+                  textAlign: "center",
+                  fontSize: "18px",
+                  border: "none",
+                }}
+              />
+            ) : null}
+          </div>
+        ))}
       </div>
+      <button onClick={checkAnswers} style={{ marginTop: "20px" }}>
+        Check Answers
+      </button>
+      <button
+        onClick={resetPuzzle}
+        style={{ marginTop: "10px", marginLeft: "10px" }}
+      >
+        Reset Puzzle
+      </button>
     </div>
   );
 }

@@ -14,6 +14,7 @@ import Cs from "./Components/Cs";
 import Blog from "./Components/Blog";
 import Guess from "./Components/Guess";
 import Feature from "./Components/Feature";
+import AboutUs from "./Components/About";
 const PUBLISHABLE_KEY = import.meta.env.VITE_CLERK_PUBLISHABLE_KEY;
 if (!PUBLISHABLE_KEY) {
   throw new Error("Missing Publishable Key");
@@ -37,6 +38,10 @@ const router = createBrowserRouter([
       {
         path: "/crossword",
         element: <Cs></Cs>,
+      },
+      {
+        path: "/about",
+        element: <AboutUs></AboutUs>,
       },
       {
         path: "/feature",
